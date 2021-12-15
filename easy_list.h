@@ -6,7 +6,6 @@
 
 using namespace std;
 
-void print_vector(vector <int> & mass);
 void get_swap(int & a, int & b);
 void get_abs(int & a);
 
