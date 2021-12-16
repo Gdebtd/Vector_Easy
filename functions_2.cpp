@@ -1,6 +1,6 @@
 #include "easy_list.h"
 
-void its_rev_list(vector <int> & mass)
+void itc_rev_list(vector <int> & mass)
 {
     unsigned int maxi = mass.size();
     vector <int> res(maxi);
