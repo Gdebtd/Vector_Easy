@@ -2,9 +2,9 @@
 
 void itc_rev_list(vector <int> & mass)
 {
-    unsigned int maxi = mass.size();
+    int maxi = mass.size();
     vector <int> res(maxi);
-    for (unsigned int i = 0; i < maxi; i++)
+    for (int i = 0; i < maxi; i++)
     {
         res[i] = mass[maxi - 1 - i];
     }
@@ -13,7 +13,7 @@ void itc_rev_list(vector <int> & mass)
 
 void itc_rev_par_list(vector <int> & mass)
 {
-    for (unsigned int i = 0; i < mass.size() - 1; i += 2)
+    for (int i = 0; i < mass.size() - 1; i += 2)
     {
         get_swap(mass[i], mass[i + 1]);
     }
@@ -21,7 +21,7 @@ void itc_rev_par_list(vector <int> & mass)
 
 void itc_rshift_list(vector <int> & mass)
 {
-    for (unsigned int i = mass.size() - 1; i > 0; i--)
+    for (int i = mass.size() - 1; i > 0; i--)
     {
         get_swap(mass[i], mass[i - 1]);
     }
@@ -29,7 +29,7 @@ void itc_rshift_list(vector <int> & mass)
 
 void itc_lshift_list(vector <int> & mass)
 {
-    for (unsigned int i = 0; i < mass.size() - 1; i++)
+    for (int i = 0; i < mass.size() - 1; i++)
     {
         get_swap(mass[i], mass[i + 1]);
     }
