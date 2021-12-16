@@ -3,7 +3,8 @@
 void get_swap(int & a, int & b)
 {
     int tmp = a;
-    a = b; b = tmp;
+    a = b;
+    b = tmp;
 }
 
 void get_abs(int & a)
