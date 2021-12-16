@@ -40,7 +40,7 @@ int itc_sl_list(const vector <int> & mass)
     return cnt;
 }
 
-bool its_same_parts_list(const vector <int> & mass)
+bool itc_same_parts_list(const vector <int> & mass)
 {
     if (mass.size() > 1)
     {
